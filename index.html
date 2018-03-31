@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Circular Slider</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slider.css">
+</head>
+<body>
+    <section class="slider">
+        <h1>Début de la section</h1>
+        <div class="cs-wrap" draggable="false">
+            <div class="cs-body">
+                <ul>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/grapes_1f347.png" alt="Raisin"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/melon_1f348.png" alt="Melon"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/watermelon_1f349.png" alt="Melon d'eau"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/tangerine_1f34a.png" alt=" Clémentine"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/lemon_1f34b.png" alt="Citron"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/banana_1f34c.png" alt=" Banane"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/pineapple_1f34d.png" alt="Ananas"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/red-apple_1f34e.png" alt="Pomme"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/peach_1f351.png" alt="Pêche"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/cherries_1f352.png" alt="Cerise"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/strawberry_1f353.png" alt="Fraise"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/kiwifruit_1f95d.png" alt="Kiwi"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/grapes_1f347.png" alt="Raisin"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/melon_1f348.png" alt="Melon"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/watermelon_1f349.png" alt="Melon d'eau"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/tangerine_1f34a.png" alt=" Clémentine"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/lemon_1f34b.png" alt="Citron"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/banana_1f34c.png" alt=" Banane"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/pineapple_1f34d.png" alt="Ananas"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/red-apple_1f34e.png" alt="Pomme"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/peach_1f351.png" alt="Pêche"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/cherries_1f352.png" alt="Cerise"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/strawberry_1f353.png" alt="Fraise"></li>
+                    <li class="cs-el"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/96/kiwifruit_1f95d.png" alt="Kiwi"></li>
+                </ul>
+            </div>
+        </div>
+        <h2>Fin de la section</h2>
+    </section>
+    <section></section>
+    <script src="assets/js/slider.js"></script>
+    <script>
+        var Slider = new Slider({
+            container: '.cs-wrap',
+            slides: '.cs-el',
+            rotate: 60
+        })
+    </script>
+</body>
+</html>
